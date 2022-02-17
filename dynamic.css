@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#clothing-p,
+#accessories-p {
+    margin: 80px 0 0 75px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#wrapper,
+#wrapper2 {
+    display: flex;
+    margin-left: 89px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+#wrapper2 {
+    margin-bottom: 90px;
+}
+
+.first-catlog {
+    box-shadow: 0 0 6px #ccc;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.first-catlog:hover {
+    box-shadow: 0 0 15px #ccc;
+    cursor: pointer;
+}
+
+.images {
+    width: 200px;
+    height: 266.67;
+}
+
+.content-wrapper {
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+.item-name {
+    font-size: 16px;
+}
+
+.item-brand {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.item-price {
+    color: #009697;
+    font-size: 15px;
+    margin-top: 5px;
+}
